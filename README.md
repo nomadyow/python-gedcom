@@ -23,13 +23,6 @@ The module can be installed via [pip](https://pip.pypa.io/).
 Run `pip install python-gedcom` to install or `pip install python-gedcom --upgrade`
 to upgrade to the newest version uploaded to the [PyPI repository](https://pypi.org/project/python-gedcom/).
 
-## Quirk Handling
-
-Some large genealogy websites like MyHeritage and Ancestry produce GEDCOM files that break the established format.  This module includes support for handling these quirks:
-
-- BOM control characters at the beginning of the file
-- Multi-line fields without using CONC or CONT
-
 ## Usage
 
 When successfully installed you may import the `gedcom` module and use
@@ -50,15 +43,8 @@ This module was originally based on a GEDCOM parser written by
 Daniel Zappala at Brigham Young University (Copyright (C) 2005) which
 was licensed under the GPL v2 and then continued by
 [Mad Price Ball](https://github.com/madprime) in 2012.
-[Nicklas Reincke](https://github.com/nickreynke) in 2018.
-[Damon Brodie](https://github.com/nomadyow/) in 2018.
 
 ## Changelog
-
-**v0.2.2dev**
-
-- Handle BOM at the beginning of files (MyHeritage.com does this)
-
 
 **v0.2.1dev**
 
